@@ -1,0 +1,67 @@
+/* Local artwork formerly stored as inline background images. */
+.z-elem[data-elem-id="1778428374563000001"] .z-atom,
+.z-elem[data-elem-id="1778435978234000001"] .z-atom {
+  background-image: url('../assets/images/envelope-frame.svg');
+}
+
+.z-elem[data-elem-id="1778428280387"] .z-atom {
+  background-image: url('../assets/images/couple-childhood.webp');
+}
+
+.z-elem[data-elem-id="1783401092945000003"] .z-atom {
+  background-image: url('../assets/images/pair-photo.webp');
+}
+
+.z-elem[data-elem-id="1778355365802"] .z-atom,
+.z-elem[data-elem-id="1781789025042000001"] .z-atom {
+  background-image: url('../assets/images/long-flower.webp');
+}
+
+.z-elem[data-elem-id="1778346241475000003"] .z-atom {
+  background-image: url('../assets/images/rose-block-1.webp');
+}
+
+.z-elem[data-elem-id="1780349521744000002"] .z-atom,
+.z-elem[data-elem-id="1780349536726000003"] .z-atom,
+.z-elem[data-elem-id="1781785768775000002"] .z-atom,
+.z-elem[data-elem-id="1781791672597000001"] .z-atom,
+.z-elem[data-elem-id="1781791794088000001"] .z-atom,
+.z-elem[data-elem-id="1781791672597000002"] .z-atom {
+  background-image: url('../assets/images/floral-sprig.svg');
+}
+
+.z-elem[data-elem-id="1781785768774000001"] .z-atom {
+  background-image: url('../assets/images/floral-sprig-alt.svg');
+}
+
+.z-elem[data-elem-id="1781785836179000003"] .z-atom {
+  background-image: url('../assets/images/schedule-flower-1.svg');
+}
+
+.z-elem[data-elem-id="1779287614790000008"] .z-atom {
+  background-image: url('../assets/images/schedule-flower-2.svg');
+}
+
+.z-elem[data-elem-id="1779287552385000007"] .z-atom {
+  background-image: url('../assets/images/schedule-flower-3.svg');
+}
+
+.z-elem[data-elem-id="1781560164486000001"] .z-atom {
+  background-image: url('../assets/images/schedule-flower-4.svg');
+}
+
+.z-elem[data-elem-id="1781367557498000002"] .z-atom {
+  background-image: url('../assets/images/schedule-flower-5.svg');
+}
+
+.z-elem[data-elem-id="1778431904108"] .z-atom {
+  background-image: url('../assets/images/rose-block-2.webp');
+}
+
+.z-elem[data-elem-id="1781788372293"] .z-atom {
+  background-image: url('../assets/images/small-decor.webp');
+}
+
+.z-elem[data-elem-id="1778432646372000001"] .z-atom {
+  background-image: url('../assets/images/rings.webp');
+}
