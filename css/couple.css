@@ -1,0 +1,458 @@
+:root {
+  --couple-pink: #ec99ba;
+  --couple-pink-dark: #d77c9f;
+  --couple-cream: #fffae7;
+  --couple-ink: #30292c;
+  --couple-muted: rgba(48, 41, 44, 0.72);
+  --couple-line: rgba(215, 124, 159, 0.32);
+}
+
+.legacy-section,
+.omitted-section {
+  display: none !important;
+}
+
+#hero [data-elem-id="1778428280387"] .z-atom {
+  overflow: hidden;
+  border-radius: 50% 50% 0 0 !important;
+  filter: grayscale(1) contrast(1.05) brightness(1.02);
+}
+
+.custom-record {
+  width: 100%;
+  overflow: hidden;
+  background: var(--couple-cream);
+}
+
+#location.custom-record,
+#schedule.custom-record,
+#dress-code-custom.custom-record {
+  background-color: var(--couple-cream) !important;
+}
+
+.dress-code-card {
+  position: relative;
+  box-sizing: border-box;
+  width: min(100%, 520px);
+  margin: 0 auto;
+  padding: 74px 28px 88px;
+  overflow: hidden;
+  color: var(--couple-ink);
+  text-align: center;
+}
+
+.dress-code-card::before,
+.dress-code-card::after {
+  position: absolute;
+  width: 145px;
+  height: 145px;
+  background: url('../assets/images/floral-sprig.svg') center / contain no-repeat;
+  opacity: 0.17;
+  pointer-events: none;
+  content: '';
+}
+
+.dress-code-card::before {
+  top: -42px;
+  right: -58px;
+  transform: rotate(21deg);
+}
+
+.dress-code-card::after {
+  bottom: -52px;
+  left: -62px;
+  transform: rotate(198deg);
+}
+
+.dress-code-card h2 {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  color: var(--couple-pink);
+  font: 700 57px/1 'hand', cursive;
+}
+
+.dress-code-copy {
+  position: relative;
+  z-index: 1;
+  max-width: 285px;
+  margin: 22px auto 31px;
+  font: 400 14px/1.45 'Wed', Georgia, serif;
+}
+
+.dress-code-copy p {
+  margin: 0;
+}
+
+.dress-code-copy p + p {
+  margin-top: 14px;
+}
+
+.satin-palette {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 86px);
+  justify-content: center;
+  gap: 18px 27px;
+}
+
+.satin-swatch {
+  display: block;
+  width: 86px;
+  height: 86px;
+  border: 3px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  background-image: url('../assets/images/dress-code-palette.webp');
+  background-repeat: no-repeat;
+  background-size: 203px 384px;
+  box-shadow: 0 11px 19px rgba(48, 41, 44, 0.17), inset 0 0 0 1px rgba(48, 41, 44, 0.05);
+}
+
+.satin-swatch--black {
+  background-position: -8px -20px;
+}
+
+.satin-swatch--brown {
+  background-position: -110px -14px;
+}
+
+.satin-swatch--green {
+  background-position: -8px -154px;
+}
+
+.satin-swatch--rose {
+  background-position: -110px -127px;
+}
+
+.satin-swatch--blush {
+  background-position: -8px -282px;
+}
+
+.satin-swatch--champagne {
+  background-position: -110px -260px;
+}
+
+#schedule,
+#schedule .z-artboard,
+#schedule .z-carrier,
+#schedule .z-filter {
+  background-color: var(--couple-cream) !important;
+}
+
+@media (max-width: 639px) {
+  #timer [data-elem-id="1778362204687000002"] {
+    left: calc(50% - 160px + 151px) !important;
+    width: 25px !important;
+  }
+
+  #timer [data-elem-id="1781787812982000004"] {
+    left: calc(50% - 160px + 176px) !important;
+    width: 130px !important;
+  }
+
+  #schedule .z-artboard,
+  #schedule .z-carrier,
+  #schedule .z-filter {
+    height: 500px !important;
+  }
+}
+
+#schedule [data-elem-id="1779285810996000007"],
+#schedule [data-elem-id="1779285829285000010"],
+#schedule [data-elem-id="1779287614790000008"],
+#schedule [data-elem-id="1779285829284000009"],
+#schedule [data-elem-id="1781466368784000001"] {
+  display: none !important;
+}
+
+#schedule .schedule-note {
+  display: block;
+  margin-top: 2px;
+  color: rgba(48, 41, 44, 0.62);
+  font-size: 8.5px;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+@media (max-width: 639px) {
+  #schedule [data-elem-id="1779285810996000008"] {
+    top: 198px !important;
+  }
+
+  #schedule [data-elem-id="1781560164486000001"] {
+    top: 241px !important;
+  }
+}
+
+.couple-section {
+  position: relative;
+  box-sizing: border-box;
+  width: min(100%, 520px);
+  margin: 0 auto;
+  padding: 72px 24px 84px;
+  overflow: hidden;
+  color: var(--couple-ink);
+  text-align: center;
+}
+
+.couple-eyebrow {
+  margin: 0 0 5px;
+  color: var(--couple-pink-dark);
+  font: 400 11px/1.4 'Wed', Georgia, serif;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.couple-section h2 {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  color: var(--couple-pink);
+  font: 700 56px/0.98 'hand', cursive;
+}
+
+.couple-locations {
+  padding-bottom: 94px;
+}
+
+.location-visual {
+  position: relative;
+  width: calc(100% + 48px);
+  margin: 24px -24px 10px;
+}
+
+.location-visual::before,
+.location-visual::after {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  left: 0;
+  height: 34px;
+  pointer-events: none;
+  content: '';
+}
+
+.location-visual::before {
+  top: 0;
+  background: linear-gradient(to bottom, var(--couple-cream), rgba(255, 250, 231, 0));
+}
+
+.location-visual::after {
+  bottom: 0;
+  background: linear-gradient(to top, var(--couple-cream), rgba(255, 250, 231, 0));
+}
+
+.location-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.location-card {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 38px minmax(0, 1fr);
+  gap: 15px;
+  padding: 28px 0 27px;
+  border-top: 1px solid var(--couple-line);
+  text-align: left;
+}
+
+.location-number {
+  color: var(--couple-pink);
+  font: 400 25px/1 'potf', Georgia, serif;
+  letter-spacing: -0.04em;
+}
+
+.location-copy {
+  min-width: 0;
+}
+
+.location-time {
+  margin: 0 0 8px;
+  color: var(--couple-pink-dark);
+  font: 400 11px/1.4 'Wed', Georgia, serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.location-card h3,
+.schedule-list h3 {
+  margin: 0;
+  color: var(--couple-ink);
+  font: 400 22px/1.22 'Wed', Georgia, serif;
+}
+
+.location-address {
+  margin: 8px 0 13px;
+  color: var(--couple-muted);
+  font: 400 14px/1.5 'Wed', Georgia, serif;
+}
+
+.couple-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 3px 0 5px;
+  border-bottom: 1px solid currentColor;
+  color: var(--couple-pink-dark);
+  font: 400 12px/1.2 'Wed', Georgia, serif;
+  text-decoration: none;
+}
+
+.couple-button span {
+  font-size: 14px;
+  transition: transform 180ms ease;
+}
+
+.couple-button:hover span,
+.couple-button:focus-visible span {
+  transform: translate(2px, -2px);
+}
+
+.location-journey {
+  position: relative;
+  z-index: 2;
+  height: 16px;
+}
+
+.location-journey::before,
+.location-journey::after {
+  position: absolute;
+  top: 7px;
+  width: calc(50% - 12px);
+  height: 1px;
+  background: var(--couple-line);
+  content: '';
+}
+
+.location-journey::before {
+  left: 0;
+}
+
+.location-journey::after {
+  right: 0;
+}
+
+.location-journey span {
+  position: absolute;
+  top: 3px;
+  left: calc(50% - 5px);
+  width: 10px;
+  height: 10px;
+  border: 1px solid var(--couple-pink);
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+}
+
+.couple-schedule {
+  padding-top: 62px;
+  padding-bottom: 100px;
+  background: var(--couple-cream);
+}
+
+.couple-schedule::before {
+  position: absolute;
+  top: -54px;
+  left: -92px;
+  width: 210px;
+  height: 210px;
+  background: url('../assets/images/floral-sprig.svg') center / contain no-repeat;
+  opacity: 0.22;
+  transform: rotate(12deg);
+  pointer-events: none;
+  content: '';
+}
+
+.schedule-intro {
+  position: relative;
+  z-index: 1;
+  max-width: 230px;
+  margin: 15px auto 35px;
+  color: var(--couple-muted);
+  font: 400 13px/1.5 'Wed', Georgia, serif;
+}
+
+.schedule-list {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--couple-line);
+  list-style: none;
+  text-align: left;
+}
+
+.schedule-list li {
+  position: relative;
+  display: grid;
+  grid-template-columns: 68px minmax(0, 1fr);
+  gap: 18px;
+  padding: 25px 0 26px;
+  border-bottom: 1px solid var(--couple-line);
+}
+
+.schedule-list time {
+  padding-top: 1px;
+  color: var(--couple-pink);
+  font: 400 21px/1.1 'potf', Georgia, serif;
+  letter-spacing: -0.04em;
+}
+
+.schedule-list h3 {
+  font-size: 20px;
+}
+
+.schedule-list p {
+  margin: 7px 0 0;
+  color: var(--couple-muted);
+  font: 400 13px/1.52 'Wed', Georgia, serif;
+}
+
+.couple-decor {
+  position: absolute;
+  z-index: 0;
+  width: 148px;
+  pointer-events: none;
+}
+
+.couple-decor--bottom {
+  right: -55px;
+  bottom: -30px;
+  opacity: 0.38;
+  transform: rotate(15deg);
+}
+
+@media (max-width: 360px) {
+  .couple-section {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+  .couple-section h2 {
+    font-size: 51px;
+  }
+
+  .location-visual {
+    width: calc(100% + 36px);
+    margin-right: -18px;
+    margin-left: -18px;
+  }
+
+  .schedule-list li {
+    grid-template-columns: 61px minmax(0, 1fr);
+    gap: 14px;
+  }
+
+  .schedule-list time {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 640px) {
+  .custom-record {
+    display: none !important;
+  }
+}

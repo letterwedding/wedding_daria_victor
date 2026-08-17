@@ -1,4 +1,4 @@
-const WEDDING_DATE = new Date("2026-09-19T14:00:00+03:00");
+const WEDDING_DATE = new Date("2026-09-30T17:00:00+07:00");
 const qs = (selector, scope = document) => scope.querySelector(selector);
 const qsa = (selector, scope = document) => Array.from(scope.querySelectorAll(selector));
 
